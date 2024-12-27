@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="estilo.css">
+
+    <script src="menu.js" defer></script>
+    <script src="user.js" defer></script>
+
+    <title>Agência MN</title>
+</head>
+<body>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="index.html#inicio">
+                    <img src="images/AgenciaMN.png" width="200" height="200" alt="Logo Agência MN">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html#inicio">Início</a></li>
+                    <li><a href="index.html#especialidades">Especialidades</a></li>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="index.html#contato">
+                    <button>Contatos</button>
+                </a>
+            </div><!--btn-contato-->
+
+          <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg "></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html#inicio">Início</a></li>
+                        <li><a href="index.html#especialidades">Especialidades</a></li>
+                        <li><a href="index.html#sobre">Sobre</a></li>
+                        <li><a href="index.html#projetos">Projetos</a></li>
+                        <li><a href="index.html#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>Eleve seu negócio digital a outro nível<span> com um
+                        Front-End de qualidade!</span></h1>
+                        <p>Olá, Sou Mathias Noronha, desenvolvedor Front-End com conhecimento em HTML, CSS e Javascript. O <span>front-end</span> é a primeira coisa que os usuários veem e interagem em um site ou aplicação. Um bom desenvolvimento front-end melhora significativamente a UX, aumentando a satisfação do usuário e a probabilidade de retenção. Quero ajudar empresas a trasforma sonhos em código. Vamos conversar?</p>
+                        <div class="btn-contato">
+                            <a href="index.html#contato">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/mathias-noronha-photo.jpg" width="395" height="488" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especiliadades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="#00FF08"><path d="M0-360v-240h60v80h80v-80h60v240h-60v-100H60v100H0Zm310 0v-180h-70v-60h200v60h-70v180h-60Zm170 0v-200q0-17 11.5-28.5T520-600h180q17 0 28.5 11.5T740-560v200h-60v-180h-40v140h-60v-140h-40v180h-60Zm320 0v-240h60v180h100v60H800Z"/></svg>
+                        <h3>HTML5</h3>
+                        <p>Criação de páginas web utilizando HTML5 semântico para garantir acessibilidade e SEO.</p>
+                        <p>Desenvolvimento de formulários interativos e acessíveis, com validação embutida.</p>
+                        <p>Integração eficiente de HTML com CSS e JavaScript para criar interfaces dinâmicas e responsivas.</p>
+                        <p>Incorporação de elementos multimídia, como áudio e vídeo, utilizando tags HTML5.</p>
+
+                        
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="70px" viewBox="0 -960 960 960" width="70px" fill="#00FF08"><path d="M420-360q-17 0-28.5-11.5T380-400v-40h60v20h80v-40H420q-17 0-28.5-11.5T380-500v-60q0-17 11.5-28.5T420-600h120q17 0 28.5 11.5T580-560v40h-60v-20h-80v40h100q17 0 28.5 11.5T580-460v60q0 17-11.5 28.5T540-360H420Zm260 0q-17 0-28.5-11.5T640-400v-40h60v20h80v-40H680q-17 0-28.5-11.5T640-500v-60q0-17 11.5-28.5T680-600h120q17 0 28.5 11.5T840-560v40h-60v-20h-80v40h100q17 0 28.5 11.5T840-460v60q0 17-11.5 28.5T800-360H680Zm-520 0q-17 0-28.5-11.5T120-400v-160q0-17 11.5-28.5T160-600h120q17 0 28.5 11.5T320-560v40h-60v-20h-80v120h80v-20h60v40q0 17-11.5 28.5T280-360H160Z"/></svg>
+                        <h3>CSS3</h3>
+                        <p>Criação de layouts responsivos utilizando media queries para garantir que as páginas se adaptem a diferentes tamanhos de tela e dispositivos.</p>
+                        <p>Utilização de CSS Flexbox e Grid Layout para construir layouts complexos e flexíveis de forma eficiente.</p>
+                        <p>Criação de animações e transições suaves para melhorar a experiência do usuário utilizando @keyframes, transition e animation.</p>
+
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="80px" viewBox="0 -960 960 960" width="80px" fill="#00FF08"><path d="M300-360q-25 0-42.5-17.5T240-420v-40h60v40h60v-180h60v180q0 25-17.5 42.5T360-360h-60Zm220 0q-17 0-28.5-11.5T480-400v-40h60v20h80v-40H520q-17 0-28.5-11.5T480-500v-60q0-17 11.5-28.5T520-600h120q17 0 28.5 11.5T680-560v40h-60v-20h-80v40h100q17 0 28.5 11.5T680-460v60q0 17-11.5 28.5T640-360H520Z"/></svg>
+                        <h3>Javascript</h3>
+                        <p>Conhecimento em manipulação e interação dinâmica com a Document Object Model (DOM).</p>
+                        <p>Implementação de manipuladores de eventos para criar interfaces interativas e responsivas.</p>
+                        <p>Uso de eventos como click, submit, mousemove, entre outros.</p>
+                        <p>Uso de métodos de array como map, filter, reduce para manipulação de dados.</p>
+                        <p>Desenvolvimento de componentes modulares e reutilizáveis para interfaces de usuário.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/mathias-noronha.jpg" width="395" height="488" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU MATHIAS NORONHA.</span></h2>
+                        <p>Tenho 20 anos, sou um desenvolvedor front-end júnior. Apaixonado pela parte visual do site e aplicativo. Iniciei minha jornada acadêmica aos 19 anos, ingressando na faculdade através do PROUNI, de Análise e Desenvolvimento de Sistemas, um passo determinante para minha paixão por tecnologia e inovação.</p>
+                        <p>Aos 16 anos, entrei na escola profissionalizante, fazendo o ensino médio com o curso técnico de redes de computadores. Realizando teste de computadores, teste de peças, configuração de rede, etc.</p>
+                        <p>No final de 2022 me formei, logo após o estágio de informática. Na empresa Silicontech, trabalhava consertando e instalando o pacote Office, LibreOffice e também os sistemas operacionais. Logo após, passei um ano trabalhando na empresa Vistel telecom, com manutenção de aparelhos telecom, testando conectores verdes e azuis e fazendo RJ-45.</p>
+                        <p>Estou sempre em busca de novos conhecimentos e desafios, buscando me aprimorar constantemente e contribuir de forma significativa onde quer que eu esteja.</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/mathiasnoronha/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/mathiasnoronha"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/mathias-noronha-b008a5236"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section class="portfolio" id="projetos">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex flex-card">
+                    
+                    <div class="img-port" style="background-image: url(images/projeto01.png);"><a href="Projetos/Project Infusion/index.html">
+                        <div class="overlay">Projeto 1</div></a>
+                    </div>
+
+                    <div class="img-port" style="background-image: url(images/projeto02.png);"><a href="Projetos/ProjetoSerDigital/index.html">
+                        <div class="overlay">Projeto 2</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto03.png);"><a href="Projetos/ProjetoMyComponents/index.html">
+                        <div class="overlay">Projeto 3</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto04.png);"><a href="Projetos/ProjetoModaOra/index.html">
+                        <div class="overlay">Projeto 4</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto05.png);"><a href="Projetos/projetoCSS/index.html">
+                        <div class="overlay">Projeto 5</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto06.png);"><a href="Projetos/ProjetoCSS-flexbox/index.html">
+                        <div class="overlay">Projeto 6</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto07.png);"><a href="Projetos/projeto price cards/index.html">
+                        <div class="overlay">Projeto 07</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto08.png);"><a href="Projetos/Projeto Emoji/index.html">
+                        <div class="overlay">Projeto 08</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto09.png);"><a href="Projetos/Projeto-dashboard/index.html">
+                        <div class="overlay">Projeto 9</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto10.png);"><a href="Projetos/projeto_contatos/index.html">
+                        <div class="overlay">Projeto 7</div></a>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/projeto11.png);"><a href="Projetos/Projeto_AngelsHostels/index.html">
+                        <div class="overlay">Projeto 8</div></a>
+                    </div>
+                    
+                    <div class="img-port" style="background-image: url(images/projeto12.png);"><a href="Projetos/Projeto Aprenser/index.html">
+                        <div class="overlay">Projeto 12</div></a>
+                    </div>
+                    
+
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="" method="post" id="form">
+                    <input type="text" name="name" id="name" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="number" name="number" id="number" placeholder="Seu celular:">
+                    <textarea name="textarea" id="textarea" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR" id="submitBtn"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/AgenciaMN.png" width="200" height="200" alt="Logotipo Agência MN">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/mathiasnoronha/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/mathiasnoronha"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/mathias-noronha-b008a5236"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">mathiasnoronha932@gmail.com</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+</body>
+</html>
